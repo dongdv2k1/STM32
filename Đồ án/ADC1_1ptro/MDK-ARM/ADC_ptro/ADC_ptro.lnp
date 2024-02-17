@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"adc_ptro\startup_stm32f103xb.o"
+"adc_ptro\i2c-lcd.o"
+"adc_ptro\main.o"
+"adc_ptro\stm32f1xx_it.o"
+"adc_ptro\stm32f1xx_hal_msp.o"
+"adc_ptro\stm32f1xx_hal_gpio_ex.o"
+"adc_ptro\stm32f1xx_hal_adc.o"
+"adc_ptro\stm32f1xx_hal_adc_ex.o"
+"adc_ptro\stm32f1xx_hal.o"
+"adc_ptro\stm32f1xx_hal_rcc.o"
+"adc_ptro\stm32f1xx_hal_rcc_ex.o"
+"adc_ptro\stm32f1xx_hal_gpio.o"
+"adc_ptro\stm32f1xx_hal_dma.o"
+"adc_ptro\stm32f1xx_hal_cortex.o"
+"adc_ptro\stm32f1xx_hal_pwr.o"
+"adc_ptro\stm32f1xx_hal_flash.o"
+"adc_ptro\stm32f1xx_hal_flash_ex.o"
+"adc_ptro\stm32f1xx_hal_exti.o"
+"adc_ptro\stm32f1xx_hal_i2c.o"
+"adc_ptro\stm32f1xx_hal_tim.o"
+"adc_ptro\stm32f1xx_hal_tim_ex.o"
+"adc_ptro\system_stm32f1xx.o"
+--strict --scatter "ADC_ptro\ADC_ptro.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_ptro.map" -o ADC_ptro\ADC_ptro.axf

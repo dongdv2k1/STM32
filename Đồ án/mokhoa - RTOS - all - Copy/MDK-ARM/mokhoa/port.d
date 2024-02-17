@@ -1,0 +1,12 @@
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+mokhoa\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+mokhoa\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+mokhoa\port.o: ../Core/Inc/FreeRTOSConfig.h
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+mokhoa\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

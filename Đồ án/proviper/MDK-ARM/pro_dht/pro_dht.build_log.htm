@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: do dong, abc, LIC=47GU5-GLHGQ-KPLZY-IK095-GN909-QWAGF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\A\STM32MX\proviper\MDK-ARM\pro_dht.uvprojx
+Project File Date:  11/10/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'pro_dht'
+compiling main.c...
+../Core/Src/main.c(162): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+HT11_PORT, 
+HT11_PIN, 1); //initialize with data pin high
+../Core/Src/main.c(166): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin (
+HT11_PORT, 
+HT11_PIN, 0); //pull the pin low
+../Core/Src/main.c(168): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin (
+HT11_PORT, 
+HT11_PIN, 1); //pull the pin high
+../Core/Src/main.c(182): warning:  #68-D: integer conversion resulted in a change of sign
+  		else Response = -1; //255
+../Core/Src/main.c(269): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+HT11_PORT, 
+HT11_PIN5, 1); //initialize with data pin high
+../Core/Src/main.c(273): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin (
+HT11_PORT, 
+HT11_PIN5, 0); //pull the pin low
+../Core/Src/main.c(275): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin (
+HT11_PORT, 
+HT11_PIN5, 1); //pull the pin high
+../Core/Src/main.c(289): warning:  #68-D: integer conversion resulted in a change of sign
+  		else Response5 = -1; //255
+../Core/Src/main.c(322): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(
+PIOA, 
+PIO_PIN_6, 1); // Turn on LED1
+../Core/Src/main.c(326): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(
+PIOA, 
+PIO_PIN_6, 0); // Turn off LED1
+../Core/Src/main.c(330): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(
+PIOA, 
+PIO_PIN_7, 1); // Turn on LED2
+../Core/Src/main.c(334): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(
+PIOA, 
+PIO_PIN_7, 0); // Turn off LED2
+../Core/Src/main.c(338): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(
+PIOA, 
+PIO_PIN_8, 1); // Turn on LED3
+../Core/Src/main.c(342): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin(
+PIOA, 
+PIO_PIN_8, 0); // Turn off LED3
+../Core/Src/main.c(457): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+PIOA,
+PIO_PIN_11,1);
+../Core/Src/main.c(764): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+PIOA, 
+PIO_PIN_1, 1);
+../Core/Src/main.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=17456 RO-data=556 RW-data=204 ZI-data=5940  
+FromELF: creating hex file...
+"pro_dht\pro_dht.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\A\STM32MX\proviper\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
